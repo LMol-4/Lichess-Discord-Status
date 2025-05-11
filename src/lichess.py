@@ -9,7 +9,7 @@ class Lichess():
         self.user_data = {}
 
     # api request structure
-    def fetch_api_data(url):
+    def fetch_api_data(self, url):
         headers = {
             'Content-Type': 'application/json',
             'Accept': 'application/json'
