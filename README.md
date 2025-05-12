@@ -1,8 +1,11 @@
 # Lichess-Discord-Status
 
 Translate your Lichess activity into your Discord status.
+![Logo](.github/logo.png)
 
 This project allows you to display your current Lichess status directly on your Discord profile using Rich Presence. It automatically updates whether you are online or in a game, and provides links to your profile or the current game.
+
+![Playing](.github/playing.jpg)
 
 ## Features
 
