@@ -44,6 +44,7 @@ After installing the requirements and configuring `config.json`, run the main Py
 
 ```bash
 python main.py
+```
 
 ## Batch File (Optional)
 
