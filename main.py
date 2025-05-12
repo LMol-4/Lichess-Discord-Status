@@ -6,13 +6,13 @@ from src.lichess import Lichess
 from src.constants import (DISCORD_RPC_INTERVAL, DISCORD_APP_ID, CONFIG_FILE_PATH, ONLINE, PLAYING)
 
 def main():
-    # parse config file for username
 
     print("\nLichess-Discord-Status by LMol-4\n")
     print("Loading config file....\n")
 
     config = None
-    
+
+    # parse config file for username
     try:
         with open(CONFIG_FILE_PATH, 'r') as f:
             config = json.load(f)
