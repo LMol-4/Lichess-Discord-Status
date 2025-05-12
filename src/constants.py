@@ -4,7 +4,7 @@ LICHESS_API_URL = 'https://lichess.org/api'
 # Discord presence info
 DISCORD_APP_ID = "1371224988111208458"
 IMAGE = 'lichess-logo'
-DISCORD_RPC_INTERVAL = 20
+DISCORD_RPC_INTERVAL = 18
 
 # status & deatils
 INGAME = 'in a match'
