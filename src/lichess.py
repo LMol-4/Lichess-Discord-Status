@@ -39,8 +39,13 @@ class Lichess():
     # update rich presence info
     def display_playing(self, rpc):
         profile_url = self.user_data['url']
+        watch_link = self.user_data['playing']
 
         buttons = [
+            {
+                'label': 'Spectate',
+                'url': watch_link
+            },
             {
                 'label': 'Profile',
                 'url': profile_url,
