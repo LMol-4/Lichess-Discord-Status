@@ -11,13 +11,17 @@ def main():
     print("\nLichess-Discord-Status by LMol-4\n")
     print("Loading config file....\n")
 
+    config = None
+    
     try:
         with open(CONFIG_FILE_PATH, 'r') as f:
             config = json.load(f)
     except FileNotFoundError:
         print("Error config not found. Check path in constants.py")
+        return config
     except json.JSONDecodeError as e:
         print(f"Error decoding JSON from file: {e}")
+        return config
     
     print("Config loaded succesfully.\n")
     
