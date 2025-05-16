@@ -2,3 +2,4 @@ pypresence
 requests
 json
 time
+sys
