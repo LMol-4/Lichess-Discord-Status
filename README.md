@@ -15,9 +15,10 @@ This project allows you to display your current Lichess status directly on your 
 
 ## Installation
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
+
 ## Configuration
 
 1.  Edit `config.json` and replace `"yourLichessUsername"` with your actual Lichess username:
